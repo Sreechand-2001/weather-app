@@ -1,11 +1,5 @@
 `use strict`;
 
-// https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
-// API key = bd0c4a8ec7fc63143c2be409c88c4476
-// open weather map website
-// username - kunjumanni@gmail.com
-// password - Hello@2002
-
 const getInput = document.querySelector(".getInput");
 const submitBtn = document.querySelector(".submitBtn");
 submitBtn.addEventListener("click", () => {
