@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+section {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(33, 32, 34);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .container {
+  text-align: center;
+  height: 600px;
+  width: 450px;
+  background: linear-gradient(
+    135deg,
+    rgb(73, 228, 185) 0%,
+    rgb(63, 63, 99) 95%
+  );
+  border-radius: 25px;
+  position: relative;
+}
+section .container .search {
+  height: 25%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+section .container .search input {
+  height: 45%;
+  width: 60%;
+  border: none;
+  border-radius: 50px;
+  padding-left: 20px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  background-color: #fff;
+}
+section .container .search input:focus {
+  outline: none;
+}
+section .container .search button {
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+  border: none;
+  background-color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px black;
+}
+
+section .container .put-image {
+  position: relative;
+  bottom: 30px;
+  visibility: hidden;
+}
+section .container .temperature {
+  font-size: 60px;
+  color: white;
+  position: relative;
+  bottom: 50px;
+}
+
+section .container .place {
+  position: relative;
+  font-size: 40px;
+  color: white;
+  bottom: 30px;
+}
+section .container .footer {
+  position: absolute;
+  bottom: 23px;
+  left: 20px;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+section .container .footer .humidity {
+  height: 100%;
+  width: 30%;
+  position: relative;
+}
+section .container .footer .humidity img {
+  position: absolute;
+  height: auto;
+  width: 40px;
+  top: 35px;
+  left: 20px;
+}
+section .container .footer .humidity p {
+  position: absolute;
+  top: 30px;
+  font-size: 28px;
+  color: white;
+  right: 0px;
+}
+section .container .footer .humidity .text {
+  font-size: 16px;
+  top: 70px;
+  left: 70px;
+  letter-spacing: 1px;
+}
+section .container .footer .speed {
+  height: 100%;
+  width: 60%;
+  position: relative;
+  color: white;
+}
+
+section .container .footer .speed img {
+  position: absolute;
+  height: auto;
+  width: 40px;
+  top: 35px;
+  left: 20px;
+}
+section .container .footer .speed p {
+  position: absolute;
+  top: 30px;
+  left: 80px;
+  font-size: 28px;
+  letter-spacing: 2px;
+}
+section .container .footer .speed .text {
+  top: 70px;
+  left: 80px;
+  font-size: 16px;
+}
